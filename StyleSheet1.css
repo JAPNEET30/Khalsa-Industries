@@ -1,0 +1,100 @@
+﻿/*css file for HTMLPage1.html*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bgpic.jpg);
+    background-size: 1366px 768px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:aqua;
+}
+
+/*header*/
+#m_icon{
+    margin-top:1px;
+    margin-left:2px;
+    margin-bottom:2px;
+    image-rendering:optimizeQuality;
+}
+
+#title {
+    align-content: flex-start;
+    border-width: medium;
+    border: groove;
+    border-color: aqua;
+    border-bottom-color: aqua;
+    padding-left: 1px;
+    margin-left: 0px;
+    font-family: 'Copperplate Gothic';
+    height:50px;
+    background-color: cadetblue;
+}
+
+div > h1{
+    margin:0px;
+    font-size:20px;
+    font-weight:bolder;
+}
+
+div > h2{
+    margin-top:0px;
+    font-size:small;
+    margin-bottom:2px;
+}
+/*-----header----end----*/
+
+/*---In-Page-links---*/
+
+    /*include->products
+             ->Services
+             ->Address
+             ->Contact
+    */
+.menus{
+    font-family:'Copperplate Gothic';
+    padding-left:106px;
+    padding-right:106px;
+    background-color:aqua;
+    opacity:0.65;
+    font-stretch:wider;
+}
+
+#option{
+    margin-left:4px;
+    margin-bottom:0px;
+    position:fixed;
+    font-weight:bolder;
+}
+/*---In--page--link--end---*/
+
+/*---Sliding--photos---*/
+#slide{
+    margin-top:19px;
+    background-color:chartreuse;
+    height:278px;
+}
+/*---Sliding--photos--end---*/
+
+/* Descriptions */
+.top-m{
+    width:1080px;
+    font-family:Bahnschrift;
+}
+
+.describe{
+    font-family:Bahnschrift;
+}
+/*---Description--end---*/
+
+/*--Address--*/
+#address{
+    background-color:cyan;
+    opacity:0.7;
+    height:200px;
+    width:1194px;
+}
+#content{
+
+}
+/*--Address--End--*/
